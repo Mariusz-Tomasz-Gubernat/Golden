@@ -21,8 +21,16 @@ $splash-btn-font:"Montserrat",
 sans-serif;
 $brand-font: 'Wisdom';
 
-$splash-text-color:#ffffff;
 $brand-color:#fed136;
+$splash-text-color:#ffffff;
+$splash-btn-bgc: #fed136;
+
+$services-column-container: #ffffff;
+$icon-color: #fed136;
+$services-description-color: #777777;
+
+$portfolio-bgc:#f7f7f7;
+$secton-subtitle-color: #777777;
 
 
 /* GLOBAL */
@@ -49,10 +57,20 @@ $brand-color:#fed136;
     width: 100%;
     margin-bottom: 75px;
     font-size: 16px;
-    color: #777777;
+    color: $secton-subtitle-color;
     font-weight: 400;
     font-style: italic;
     font-family: $subtitles-font;
+}
+
+.section-row-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .section-column-container {
+        width: 30%;
+    }
 }
 
 /*SPLASH*/
@@ -122,10 +140,10 @@ $brand-color:#fed136;
             height: 65px;
             border-radius: 3px;
             line-height: 65px;
-            background-color: #fed136;
+            background-color: $splash-btn-bgc;
             font-size: 18px;
             font-weight: 700;
-            font-family: $splash-btn-font;
+            font-family: $splash-btn-bgc;
             color: $splash-text-color;
             text-decoration: none;
         }
@@ -138,31 +156,38 @@ $brand-color:#fed136;
 .services {
     text-align: center;
 
-    .services-row-container {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
+    .services-description {
+        font-size: 14px;
+        color: $services-description-color;
+        font-family: $description-font;
+    }
 
-        .services-column-container {
-            width: 30%;
+    i {
+        padding: 20px;
+        font-size: 35px;
+        border: 4px solid $icon-color;
+        border-radius: 50%;
+        color: $icon-color;
+    }
 
-            .services-description {
-                font-size: 14px;
-                color: #777777;
-                font-family: $description-font;
-            }
+    .services-title {
+        font-size: 18px;
+    }
+}
 
-            i {
-                padding: 20px;
-                font-size: 35px;
-                border: 4px solid #fed136;
-                border-radius: 50%;
-                color: #fed136;
-            }
+.portfolio {
+    margin-top: 120px;
+    padding-top: 25px;
+    background-color: $portfolio-bgc;
+    text-align: center;
 
-            .services-title {
-                font-size: 18px;
-            }
-        }
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .section-column-container {
+        background-color: $services-column-container;
+        margin-bottom: 50px;
     }
 }
