@@ -20,6 +20,8 @@ sans-serif;
 $splash-btn-font:"Montserrat",
 sans-serif;
 $brand-font: 'Wisdom';
+$footer-copyright-font:"Montserrat";
+
 
 $brand-color:#fed136;
 $splash-text-color:#ffffff;
@@ -32,6 +34,9 @@ $services-description-color: #777777;
 $portfolio-bgc:#f7f7f7;
 $secton-subtitle-color: #777777;
 
+$footer-icon-color:#ffffff;
+$footer-icon-bgc:#222222;
+$footer-copyright-color:#555555;
 
 /* GLOBAL */
 
@@ -175,9 +180,11 @@ $secton-subtitle-color: #777777;
     }
 }
 
+/* PORTFOLIO */
+
 .portfolio {
     margin-top: 120px;
-    padding-top: 25px;
+    padding: 25px 0 75px;
     background-color: $portfolio-bgc;
     text-align: center;
 
@@ -189,5 +196,52 @@ $secton-subtitle-color: #777777;
     .section-column-container {
         background-color: $services-column-container;
         margin-bottom: 50px;
+    }
+}
+
+/* FOOTER */
+
+.main-page-footer {
+    display: flex;
+    padding: 15px 0;
+
+    .section-container {
+        display: flex;
+    }
+
+    .copyright {
+        margin-left: 20px;
+        font-size: 14px;
+        color: $footer-copyright-color;
+        font-family: $footer-copyright-font;
+        margin-right: 200px;
+        line-height: 40px;
+    }
+
+    .footer-social-list {
+        display: flex;
+
+        .list-item {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                font-size: 0;
+                text-align: center;
+
+                i {
+                    display: inline-block;
+                    width: 40px;
+                    height: 40px;
+                    margin-left: 25px;
+                    border-radius: 50%;
+                    font-size: 16px;
+                    color: $footer-icon-color;
+                    background-color: $footer-icon-bgc;
+                    line-height: 40px;
+
+                }
+            }
+        }
     }
 }
