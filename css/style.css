@@ -6,5 +6,79 @@
   font-family: "Droid";
   src: url("../vendor/DroidSerif.ttf");
 }
+/* VARIABLES */
+/* GLOBAL */
+.section-container {
+  width: 1460px;
+  margin: 0 auto;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHFCQUFBO0VBQ0EsMENBQUE7QUNDSjtBREVBO0VBQ0ksb0JBQUE7RUFDQSxvQ0FBQTtBQ0FKIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
+/*SPLASH*/
+.splash {
+  background-image: url(/images/nikon-8388022_1280.jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  height: 800px;
+}
+.splash .brand-name {
+  font-size: 26px;
+  color: #fed136;
+  font-family: "Wisdom";
+  font-weight: 400;
+  line-height: 57px;
+}
+.splash .main-page-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 200px;
+}
+.splash .main-page-navigation .navigation-list {
+  display: flex;
+}
+.splash .main-page-navigation .navigation-list .list-item {
+  list-style: none;
+}
+.splash .main-page-navigation .navigation-list .list-item .item {
+  text-decoration: none;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  padding: 25px;
+}
+.splash .splash-text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+}
+.splash .splash-text-container .page-title {
+  margin: 20px 0 25px;
+  font-size: 75px;
+  font-family: "Montserrat", sans-serif;
+}
+.splash .splash-text-container .page-subtitle {
+  margin: 25px 0 20px;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Droid";
+}
+.splash .splash-text-container .splash-btn {
+  display: inline-block;
+  width: 245px;
+  height: 65px;
+  border-radius: 3px;
+  line-height: 65px;
+  background-color: #fed136;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHFCQUFBO0VBQ0EsMENBQUE7QUNDSjtBREVBO0VBQ0ksb0JBQUE7RUFDQSxvQ0FBQTtBQ0FKO0FER0EsY0FBQTtBQWlCQSxXQUFBO0FBRUE7RUFDSSxhQUFBO0VBQ0EsY0FBQTtBQ2xCSjs7QURxQkEsU0FBQTtBQUVBO0VBQ0kscURBQUE7RUFDQSxvQkFBQTtLQUFBLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxhQUFBO0FDbkJKO0FEcUJJO0VBQ0ksZUFBQTtFQUNBLGNBcEJLO0VBcUJMLHFCQXhCSztFQXlCTCxnQkFBQTtFQUNBLGlCQUFBO0FDbkJSO0FEc0JJO0VBQ0ksYUFBQTtFQUNBLDhCQUFBO0VBQ0EsZ0JBQUE7QUNwQlI7QURzQlE7RUFDSSxhQUFBO0FDcEJaO0FEc0JZO0VBQ0ksZ0JBQUE7QUNwQmhCO0FEc0JnQjtFQUNJLHFCQUFBO0VBQ0EscUJBQUE7RUFDQSxjQXpDRDtFQTBDQyxlQUFBO0VBQ0EscUNBakRFO0VBa0RGLGFBQUE7QUNwQnBCO0FEMEJJO0VBQ0ksa0JBQUE7RUFDQSxRQUFBO0VBQ0EsU0FBQTtFQUNBLGdDQUFBO0VBQ0Esa0JBQUE7RUFDQSxjQXhEVztBQ2dDbkI7QUQwQlE7RUFDSSxtQkFBQTtFQUNBLGVBQUE7RUFDQSxxQ0F2RUM7QUMrQ2I7QUQyQlE7RUFDSSxtQkFBQTtFQUNBLGVBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0Esb0JBaEZLO0FDdURqQjtBRDRCUTtFQUNJLHFCQUFBO0VBQ0EsWUFBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGlCQUFBO0VBQ0EseUJBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxxQ0FyRks7RUFzRkwsY0FsRk87RUFtRlAscUJBQUE7QUMxQloiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
